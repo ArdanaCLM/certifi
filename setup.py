@@ -24,7 +24,7 @@ def read(fname):
 
 setuptools.setup(
     name="certifi",
-    version="2018.1.15",
+    version="2018.1.16",
     description="Local replacement for certifi",
     long_description=read('README.md'),
     author="SUSE LLC",

@@ -15,5 +15,11 @@
 # under the License.
 #
 
+import platform
+
 def where():
-    return '/etc/ssl/certs/ca-certificates.crt'
+    distro = platform.linux_distribution()[0]
+    if "SUSE" in distro:
+        return '/var/lib/ca-certificates/ca-bundle.pem'
+    else:
+        return '/etc/ssl/certs/ca-certificates.crt'
