@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Copyright (c) 2016 Hewlett-Packard Development Company, L.P.
-# Copyright (c) 2017 SUSE LLC
+# Copyright (c) 2017-2018 SUSE LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ def read(fname):
 
 setuptools.setup(
     name="certifi",
-    version="99.0.0",
+    version="2018.1.15",
     description="Local replacement for certifi",
     long_description=read('README.md'),
     author="SUSE LLC",
